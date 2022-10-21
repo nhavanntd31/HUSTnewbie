@@ -10,9 +10,9 @@ html{
 .text-white{
     color: #fff!important;
 }
-#wrapper{
+/* #wrapper{
     
-}
+} */
 
 #header{
     height: 46px;
@@ -85,15 +85,18 @@ html{
 #slider{
     margin-top: 46px;
     padding-top: 50%;
-    background: url('/assets/img/chicago.jpg') top center / cover no-repeat;
-    position: relative;
+    background: url('https://scontent.fhan4-3.fna.fbcdn.net/v/t39.30808-6/310739923_106041112293511_8758591753099709166_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e3f864&_nc_ohc=nzRpkYD47m4AX83TmFr&_nc_ht=scontent.fhan4-3.fna&oh=00_AT9IB5I7GMxvOp_RWwSVF5mte3a8CP74wk0jKMsTyrgF2A&oe=63521EBB') top center / cover no-repeat;
+    background-size:cover;
+    position:relative;
     z-index: -1;
 }
 #slider .text-content{
     position: absolute;
-    bottom: 34px;
-    color: aqua;
+    bottom: 200px;
+    color:beige;
     left: 50%;
+    font-weight: bold;
+    font-style: italic;
     transform: translateX(-50%);
     text-align: center;
 }
@@ -145,7 +148,7 @@ html{
     color: black;
 }
 #content .member-img{
-    width: 154px;
+    width: 200px;
     border-radius: 4px;
     margin-top: 15px;
 }
@@ -156,7 +159,7 @@ html{
     background-color: white;
     margin-top: 39px;
 }
-.tickets-list li{
+.tickets-list li {
     padding: 11px 16px;
     font-size: 15px;
     border-bottom: 1px solid #ddd;
@@ -164,9 +167,9 @@ html{
     list-style-type: none;
 }
 .tickets-list .sold-out{
-    background-color: #f44336;
+    background-color: orangered;
     color : #fff;
-    padding : 3px 4px;
+    padding : 5px 5px;
 }
 .tickets-list .quantity{
     float: right;
@@ -180,7 +183,15 @@ html{
     line-height: 24px;
     transform: translateY(-10%);
 }
-#footer{
+/* #footer{
     
+} */
+.tickets-list li p{
+    float: left;
+    letter-spacing: 1px;
 }
-
+.tickets-list .time{
+    color: orangered;
+    margin: 0px 5px;
+    font-weight: bold;
+}
